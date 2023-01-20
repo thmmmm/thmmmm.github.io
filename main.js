@@ -10,8 +10,8 @@ btn.addEventListener('click',signin);
 
 function signin(e){
     e.preventDefault();
-    if(username.value == "admin" && hash(password.value) == 'aea343e8432=='){
-        alert('valid password')
+    if(username.value == "admin" && password.value == "qwerty123"){
+        alert('RAH{w0w_your_a_real_hacker_YnW9WpX9K}')
     }
     else{
         alert('invalid password')
